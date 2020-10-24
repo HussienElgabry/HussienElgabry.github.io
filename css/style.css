@@ -1,9 +1,10 @@
 body
 {
-    font-family:Calibri, Calibri;
+    font-family: Calibri, sans-serif;
     font-size:13px;
     background-color: turquoise;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .banner::before
@@ -27,7 +28,19 @@ div.header img#avatar
 {
     width: 150px;
     margin: 10px 10px 10px 20px;
-    border-radius: 50%;
+    border-radius: 100%;
+}
+
+em
+{
+    font-weight: bold;
+}
+
+.imgInline
+{
+    width: 20vw;
+
+    height: 40vh;
 }
 
 div.header h1
@@ -48,35 +61,24 @@ div.content
     text-decoration: none;
 }
 
-#moodSection ul
-{
-    list-style-type: none;
-    overflow: hidden;
-}
 
-#moodSection li
-{
-    float: left;
-    padding-right: 10px;
-}
-
-.footer
+footer
 {
     border-top: 1px solid darkturquoise;
     overflow: hidden;
     padding: 15px;
     background-color: darkturquoise;
-    position: fixed;
     bottom: 0;
+    margin-bottom: 0;
     width: 100%;
 }
 
-.footer .info 
+footer address
 {
 	float: left;
 }
 
-.footer .W3CValidator 
+footer .W3CValidator
 {
     float: right;
     padding-right: 30px;
