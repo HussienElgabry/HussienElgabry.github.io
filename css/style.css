@@ -3,7 +3,7 @@ body
     font-family: Calibri, sans-serif;
     font-size:13px;
     background-color: turquoise;
-    margin: 0 auto;
+    margin: 0 auto 20vh;
     overflow-x: hidden;
 }
 
@@ -68,6 +68,7 @@ a:hover
 
 footer
 {
+    position: fixed;
     border-top: 1px solid darkturquoise;
     overflow: hidden;
     padding: 15px;
@@ -88,11 +89,13 @@ footer .W3CValidator
     padding-right: 30px;
 }
 
-ol {
+ol
+{
     display: flex;
     flex-direction: column-reverse;
 }
 
-li {
+li
+{
     flex: 0 0 auto;
 }
