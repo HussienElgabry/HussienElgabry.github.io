@@ -56,11 +56,15 @@ div.content
     padding: 15px;
 }
 
-.labs li a
+a
 {
     text-decoration: none;
 }
 
+a:hover
+{
+    text-decoration: underline;
+}
 
 footer
 {
@@ -82,4 +86,13 @@ footer .W3CValidator
 {
     float: right;
     padding-right: 30px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li {
+    flex: 0 0 auto;
 }
