@@ -39,8 +39,8 @@ em
 .imgInline
 {
     width: 20vw;
-
     height: 40vh;
+    vertical-align: top;
 }
 
 div.header h1
